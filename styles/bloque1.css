@@ -1,0 +1,39 @@
+
+.bloque_1_container{
+    display: flex;
+    align-items: center;
+    width: var(--ancho);
+    height: 868px;
+    background-color: #e7eff03a;
+    padding: 0 8%;
+}
+
+.boton_redondo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+
+.container_indicadores{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 20%;
+
+}
+
+.indicadores{
+    height: 75%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.watch{
+    font-size: 18px;
+    color: var(--color-text-purple);
+    font-weight: 400;
+}

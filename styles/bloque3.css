@@ -1,0 +1,32 @@
+.bloque_3_container{
+    display: flex;
+    gap: 95px;
+    align-items: center;
+    width: var(--ancho);
+    height: 743px;
+    background-color: #F5F5F5;
+    padding: 0 8%;
+}
+
+.explore_video_block{
+    text-align: center;
+    padding: 20px 60px 30px 60px;
+    background-color: #fbfbfbdb;
+    border-radius: 10px;
+    color: var(--color-text-purple);
+    font-size: 18px;
+    font-weight: 500;
+    width: 371px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    backdrop-filter: blur(3px);
+
+}
+
+.boton_redondo2{
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+}

@@ -1,0 +1,35 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: var(--ancho);
+    height: 383px;
+    background-color: #e7eff000;
+    padding: 0 8%;
+}
+
+.footer_sup{
+    display: flex;
+    height: 40%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.icons li a{
+    padding: 0px;
+}
+
+.appendix{
+    font-family: var(--fuente-poppins);
+    color: var(--color-text-purple);
+    font-size: 18px;
+    font-weight: 500;
+}
